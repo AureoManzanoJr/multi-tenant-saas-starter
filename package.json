@@ -1,0 +1,32 @@
+{
+  "name": "multi-tenant-saas-starter",
+  "version": "0.1.0",
+  "description": "A dependency-free, didactic TypeScript reference for the load-bearing pieces of a B2B multi-tenant SaaS backend: tenant isolation, idempotent webhooks, and a job queue with a dead-letter queue.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Aureo Manzano Junior",
+  "keywords": [
+    "multi-tenant",
+    "saas",
+    "tenant-isolation",
+    "webhooks",
+    "idempotency",
+    "job-queue",
+    "dead-letter-queue",
+    "typescript",
+    "reference"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "check": "npm run typecheck && npm run test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
