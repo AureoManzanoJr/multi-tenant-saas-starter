@@ -1,5 +1,7 @@
 # multi-tenant-saas-starter
 
+![CI](https://github.com/AureoManzanoJr/multi-tenant-saas-starter/actions/workflows/ci.yml/badge.svg)
+
 A small, **dependency-free**, didactic TypeScript reference for the three pieces
 of a B2B multi-tenant SaaS backend that are easy to get subtly, dangerously
 wrong:
